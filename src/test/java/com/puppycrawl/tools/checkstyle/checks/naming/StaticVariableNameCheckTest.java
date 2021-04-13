@@ -57,7 +57,7 @@ public class StaticVariableNameCheckTest
         final String[] expected = {
             "30:24: " + getCheckMessage(MSG_INVALID_PATTERN, "badStatic", pattern),
         };
-        verify(checkConfig, getPath("InputStaticVariableName1.java"), expected);
+        verify(checkConfig, getPath("InputStaticVariableName1Specified.java"), expected);
     }
 
     @Test
